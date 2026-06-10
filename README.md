@@ -54,7 +54,7 @@ The analog value is first converted into millivolts and then into Celsius degree
 ```cpp
 tempMV = tempRaw * 5000.0 / 1023.0;
 tempC = (tempMV / 10.0) - 50.0;# Monitoraggio Temperatura Ambiente con Arduino
-
+'''
 ---
 
 ## Screenshot
