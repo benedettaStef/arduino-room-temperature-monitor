@@ -6,6 +6,7 @@ Depending on the detected temperature, the system shows one of the following sta
 - `COLD`
 - `OK`
 - `HOT`
+
 When the temperature is higher than 25°C, the built-in Arduino LED turns on as a visual warning.
 
 ---
