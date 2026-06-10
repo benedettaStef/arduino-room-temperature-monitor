@@ -53,15 +53,16 @@ The Arduino reads the analog value from the temperature sensor connected to pin 
 The analog value is first converted into millivolts and then into Celsius degrees using the following logic:
 ```cpp
 tempMV = tempRaw * 5000.0 / 1023.0;
-tempC = (tempMV / 10.0) - 50.0;# Monitoraggio Temperatura Ambiente con Arduino
-'''
+tempC = (tempMV / 10.0) - 50.0;
+```
+
 ---
 
 ## Screenshot
 
-(images/sim1.png)
-(images/sim2.png)
-(images/sim3.png)
+![Simulation 1](images/sim1.png)
+![Simulation 2](images/sim2.png)
+![Simulation 3](images/sim3.png)
 
 ---
 
@@ -71,3 +72,4 @@ The source code is available in the file:
 
 ```text
 monitor_temperatura.ino
+```
